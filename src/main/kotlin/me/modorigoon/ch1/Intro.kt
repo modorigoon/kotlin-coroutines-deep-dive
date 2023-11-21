@@ -28,7 +28,6 @@ suspend fun updateProfile() {
 }
 
 suspend fun main() {
-
     val scope = CoroutineScope(Dispatchers.Default)
     scope.launch {
         updateNew()
